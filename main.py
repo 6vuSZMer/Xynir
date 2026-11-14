@@ -67,7 +67,7 @@ def update_live2d_ui(window, chat_window, reply, action, emotion, motion, params
         chat_window.show_bubble(reply)
     except Exception as e:
         print(f"❌ 显示气泡失败: {e}", flush=True)
-    # 播放语音
+    # 播放语音的
     if reply.strip():
         try:
             speech_manager.speak(reply)

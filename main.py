@@ -62,7 +62,7 @@ def update_live2d_ui(window, chat_window, reply, action, emotion, motion, params
                 widget.apply_params(params)
             except Exception as e:
                 print(f"❌ 应用 Live2D 参数失败: {e}", flush=True)
-    # 显示气泡
+    # 显示气泡的
     try:
         chat_window.show_bubble(reply)
     except Exception as e:

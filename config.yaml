@@ -1,0 +1,39 @@
+energy_max: 100
+#人格最大精力值
+energy_per: 0.02
+#人格精力减缓速率
+energy_min: 10
+#人格精力最低阈值
+
+#LLM的基本参数
+llm:
+  api_key: "sk-59d02088df6f487c884588422f17c88c"
+  base_url: "https://api.deepseek.com/v1/chat/completions"
+  model_name: "deepseek-v4-flash"
+#llm:
+#  api_key: "sk-9CagpvXhg7V8EzzPYa8vfNvLFtWIHNjpek6Z8dbVkwljaXWB"
+#  base_url: "https://api.littlecold.cn/v1/chat/completions"
+#  model_name: "claude-fake-5"
+
+aliyun_tts:
+  api_key: "sk-ws-H.EXREERR.p0EM.MEUCIQDIErpDtWKjIixCfLCJC2sPpF2N0q6TcViOFyhvM3sCqAIgJAOMLF16ISfZoHnoc6fFSH7oNgwSVpaN_hvFu9aBNSg"
+  model: "cosyvoice-v2"
+  voice: "longfeifei_v2"
+  response_format: "mp3"
+
+replicate:
+  api_token: "r8_K4cN69opcS05oNxR3c7uJTfGHAalRou3Cj3Ie"
+
+huggingface:
+  space_name: "AI-DrivenTesting/OmniParser-v2"
+
+omniparser:
+  api_url: "https://u1126626-7867c6014176.bjb1.seetacloud.com:8443"
+
+screen:
+  width: 1920
+  height: 1080
+
+
+
+

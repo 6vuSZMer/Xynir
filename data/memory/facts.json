@@ -1,0 +1,24 @@
+{
+  "facts": [
+    {
+      "id": "f_1787921632",
+      "text": "用户喜欢吃草莓",
+      "subject": "user",
+      "importance": 4,
+      "emotion_tag": "neutral",
+      "created_at": 1787921632.5583055,
+      "last_reviewed_at": 1787921632.5583055,
+      "review_count": 0
+    },
+    {
+      "id": "f_1787986158",
+      "text": "用户要求信儿在回复中绝对禁止使用括号、动作描写或解释性文字",
+      "subject": "user",
+      "importance": 5,
+      "emotion_tag": "neutral",
+      "created_at": 1787986158.791127,
+      "last_reviewed_at": 1787986158.791127,
+      "review_count": 0
+    }
+  ]
+}

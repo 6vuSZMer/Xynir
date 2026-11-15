@@ -4,7 +4,6 @@ energy_per: 0.02
 #人格精力减缓速率
 energy_min: 10
 #人格精力最低阈值
-
 #LLM的基本参数
 llm:
   api_key: "sk-59d02088df6f487c884588422f17c88c"

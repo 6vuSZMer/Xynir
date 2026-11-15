@@ -112,7 +112,7 @@ if __name__ == "__main__":
         lambda r, a, e, m, p: update_live2d_ui(live2d_window, chat_window, r, a, e, m, p)
     )
     def _show_error(err):
-        print(f"❌ 后台线程出错: {err}", flush=True)
+        print(f"❌ 后台线程出wrong: {err}", flush=True)
         try:
             chat_window.show_bubble(f"⚠️ {err}")
         except Exception:
